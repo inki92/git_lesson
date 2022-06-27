@@ -1,0 +1,9 @@
+$ git reset --merge
+$ git branch new_branch_2_backup
+$ git checkout new_branch_2
+$ git revert HEAD
+$ git push
+$ git checkout develop
+$ git merge new_branch_2
+$ git pull
+$ git push
